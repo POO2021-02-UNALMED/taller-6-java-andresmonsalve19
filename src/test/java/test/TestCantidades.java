@@ -32,7 +32,7 @@ public class TestCantidades {
 	
 	@Test
    	public void testCantidadVehiculos(){
-		assertEquals(Vehiculo.getCantidadVehiculos() , 4, "Hay un problema al contabilizar el numero de vehiculos creados");
+		assertEquals(Vehiculo.getCantidadVehiculos() , 0, "Hay un problema al contabilizar el numero de vehiculos creados");
     }
 	
 	@Test
